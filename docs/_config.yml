@@ -7,7 +7,7 @@ source: docs
 destination: docs/_site
 
 # Site URL (Optional)
-url: "https://username.github.io"
+url: "https://6029228.github.io"
 baseurl: "/repository-name" # Replace with your repository name if using project pages
 
 # Plugins
