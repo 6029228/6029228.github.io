@@ -1,0 +1,76 @@
+title: "Sem Bastings - Portfolio"
+description: "Portfolio site of Sem Bastings"
+theme: jekyll-theme-primer
+
+# Source and Destination Directories
+source: docs
+destination: docs/_site
+
+# Site URL (Optional)
+url: "https://username.github.io"
+baseurl: "/repository-name" # Replace with your repository name if using project pages
+
+# Plugins
+plugins:
+  - jekyll-github-metadata
+  - jekyll-seo-tag
+  - jekyll-coffeescript
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+# Paginate configuration
+paginate: 10
+paginate_path: "/page:num/"
+
+# Jekyll SEO tag configuration (Optional)
+jekyll_seo_tag:
+  title: "Sem Bastings - Portfolio"
+  description: "Portfolio site of Sem Bastings showcasing work experience and projects."
+  author: "Sem Bastings"
+  image: "/img/Ikzelf.jpg"
+  # twitter:
+  #   username: "your_twitter_username" # Optional
+  # facebook:
+  #   publisher: "your_facebook_page" # Optional
+
+# Custom configurations
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Theme settings (if applicable)
+theme_config:
+  social_links:
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/sem-bastings-a95853266"
+      icon: "linkedin"
+
+# Include specific files and folders
+include:
+  - _pages
+  - _posts
+  - assets
+
+# Exclude unnecessary files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      author: "Sem Bastings"
+
+# Build settings
+incremental: false
