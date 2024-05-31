@@ -1,0 +1,79 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#MainImg {
+  max-width: 20%;
+  max-height: 20%;
+}
+
+* {
+  background-color: #5E9632;
+  color: #663380;
+  margin: 0;
+  padding: 0;
+}
+
+.links ul li a {
+  color: #C699DC;
+}
+.links ul li {
+  list-style: none;
+}
+.links ul li a {
+  text-decoration: none;
+}
+
+.list-first {
+  color: #C699DC;
+  font-size: large;
+}
+.list-first ul li {
+  list-style: none;
+}
+.list-first ul li a {
+  text-decoration: none;
+}
+.list-second {
+  color: #7BC144;
+}
+.list-second ul li {
+  list-style: none;
+}
+
+#proj {
+  color: #C699DC;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.social {
+  width: 2vw;
+}
+
+.main.-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.example {
+  width: 40VW;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
