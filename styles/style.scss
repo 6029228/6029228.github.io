@@ -1,0 +1,95 @@
+$purple1: #663380;
+ $purple2: #C699DC;
+ $green1:#5E9632 ;
+ $green2: #6EB438;
+ $green3: #7BC144;
+//#C699DC,#5E9632,#6EB438,#7BC144,#7C4199
+@mixin Listfix{
+       ul{ li{
+            list-style: none;
+}}
+}
+@mixin ListLinks{
+    ul{
+        li{ list-style: none;
+            a{
+        
+        text-decoration: none;
+        
+    }
+    }
+    }
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // align-items: center;
+}
+#MainImg{
+    max-width: 20%;
+    max-height: 20%;
+}
+*{
+    background-color: $green1;
+    color: $purple1;
+    margin: 0;
+    padding: 0;
+}
+.links{
+    ul{
+        li{ 
+            a{
+                color: $purple2;
+            }
+        }
+    }
+ @include ListLinks()
+ 
+}
+.list{
+    &-first{
+    color: $purple2;
+    font-size: large;
+    @include ListLinks()
+    }
+    &-second{
+    color: $green3;
+    @include Listfix()
+    }
+}
+#proj{
+    color: $purple2;
+    
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+.social{
+    width: 2vw;
+}
+.main{
+    &.-top{
+        display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    }
+}
+.example{
+    width: 40VW;
+ justify-content: center;
+}
