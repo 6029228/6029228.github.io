@@ -4,7 +4,7 @@ theme: jekyll-theme-primer
 
 # Source and Destination Directories
 source: docs
-destination: docs/_site
+destination: docs/index.html
 
 # Site URL (Optional)
 url: "https://6029228.github.io"
